@@ -9,36 +9,55 @@
 <body>
     <div class="grid">
         <div class="sidebar">
-            <div>
-                <img src="" alt="no image">
+            <div class="title">
+                <img src="images/main-icon.svg" alt="no image" height="50px" width="50px">
                 <h1>Dashboard</h1>
             </div>
-            <div>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
+            <div class="list">
+                <ul>
+                    <li><a href="#"><img src="images/home.svg" alt="home" height="15px" width="15px"></a>Home</li>
+                    <li><a href="#"><img src="images/profile.svg" alt="profile" height="15px" width="15px"></a>Profile</li>
+                    <li><a href="#"><img src="images/message.svg" alt="Messages" height="15px" width="15px"></a>Messages</li>
+                    <li><a href="#"><img src="images/history.svg" alt="history" height="15px" width="15px"></a>History</li>
+                    <li><a href="#"><img src="images/tasks.svg" alt="tasks" height="15px" width="15px"></a>Tasks</li>
+                    <li><a href="#"><img src="images/communities.svg" alt="communities" height="15px" width="15px"></a>Communities</li>
+                    <li><a href="#"><img src="images/settings.svg" alt="settings" height="15px" width="15px"></a>Settings</li>
+                    <li><a href="#"><img src="images/support.svg" alt="support" height="15px" width="15px"></a>Support</li>
+                    <li><a href="#"><img src="images/privacy.svg" alt="privacy" height="15px" width="15px"></a>Privacy</li>
+                </ul>
             </div>
         </div>
         <div class="main-section">
             <div class="header-section">
                 <div class="header">
-                    <button class="searchbtn">Search</button>
-                    <input type="text" class="searchbar">
-                    <button class="notificationbtn">Notify</button>
-                    <button class="profile">Profile</button>
-                    <h2 class="username">Morgan Oakley</h2>
+                    <div class="inp">
+                        <div>
+                            <a id="search">
+                                <img src="images/search.svg" alt="search" height="20px" width="20px">
+                            </a>
+                        </div>
+                        <div>
+                            <input type="text" class="searchbar">
+                        </div>
+                    </div>
+                    <div class="social-icons">
+                        <div>
+                            <a class="notificationbtn"><img src="images/notify.svg" alt="notify" height="20px" width="20px"></a>
+                        </div>
+                        <div>
+                            <img src="images/icon.svg" alt="icon" height="50px" width="50px">
+                        </div>
+                        <div>
+                            <h2 class="username">Morgan Oakley</h2>
+                        </div>
+                    </div>
                 </div>
                 <div class="nav-section">
                     <div class="icon">
-                        <img src="" alt="no image">
-                        <p>Hi there,</p>
-                        <h2>Morgan Oakley(@Morgan)</h2>
+                        <img src="images/icon.svg" alt="icon" height="50px" width="50px">
+                        <div>
+                            <h2><span>Hi there,</span>Morgan Oakley(@Morgan)</h2>
+                        </div>
                     </div>
                     <div class="nav">
                         <button>New</button>
@@ -49,133 +68,152 @@
 
             </div>
             <div class="main">
-                <div class="projects-section">
-                    <div class="card">
-                        <div>
-                            <h3>Super cool project</h3>
-                        </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officiis assumenda magnam error porro nostrum numquam, qui in nobis ratione veniam reiciendis voluptatem voluptatibus dolore perferendis? Enim deserunt doloribus exercitationem.</p>
-                        </div>
-                        <div>
-                            <button>star</button>
-                            <button>eye</button>
-                            <button>share</button>
-                        </div>
-                    </div>
-                    <div class="card">
-                       <div>
-                        <h3>Less cool project</h3>
-                       </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officiis assumenda magnam error porro nostrum numquam, qui in nobis ratione veniam reiciendis voluptatem voluptatibus dolore perferendis? Enim deserunt doloribus exercitationem.</p>
-                        </div>
-                        <div>
-                            <button>star</button>
-                            <button>eye</button>
-                            <button>share</button>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div>
-                            <h3>Impossible App</h3>
-                        </div>
-                        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officiis assumenda magnam error porro nostrum numquam, qui in nobis ratione veniam reiciendis voluptatem voluptatibus dolore perferendis? Enim deserunt doloribus exercitationem.</p></div>
-                        <div>
-                            <button>star</button>
-                            <button>eye</button>
-                            <button>share</button>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div>
-                            <h3>Easy Peasy App</h3>
-                        </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officiis assumenda magnam error porro nostrum numquam, qui in nobis ratione veniam reiciendis voluptatem voluptatibus dolore perferendis? Enim deserunt doloribus exercitationem.</p>
-                        </div>
-                        <div>
-                            <button>star</button>
-                            <button>eye</button>
-                            <button>share</button>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div>
-                            <h3>Ad Blocker</h3>
-                        </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officiis assumenda magnam error porro nostrum numquam, qui in nobis ratione veniam reiciendis voluptatem voluptatibus dolore perferendis? Enim deserunt doloribus exercitationem.</p>
-                        </div>
-                        <div>
-                            <button>star</button>
-                            <button>eye</button>
-                            <button>share</button>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div>
-                            <h3>Money Maker</h3>
-                        </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officiis assumenda magnam error porro nostrum numquam, qui in nobis ratione veniam reiciendis voluptatem voluptatibus dolore perferendis? Enim deserunt doloribus exercitationem.</p>
-                        </div>
-                        <div>
-                            <button>star</button>
-                            <button>eye</button>
-                            <button>share</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="announcement-section">
-                    <div class="card">
-                        <div>
-                            <h3>Site Maintenance</h3>
-                        </div>
-                        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut laboriosam deserunt ipsam vitae maxime aspernatur, sint expedita. Incidunt qui, enim reprehenderit dicta non.</div>
-                    </div>
-                    <div class="card">
-                        <div>
-                            <h3>Community Share Day</h3>
-                        </div>
+                <div>
+                    <h2>Your Projects</h2>
+                    <div class="projects-section">
+                        <div class="card">
                             <div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quam fuga cum hic corporis quaerat! Quam, laborum nesciunt soluta debitis odio voluptatibus fugit, corporis sequi.</p>
+                                <h3>Super cool project</h3>
                             </div>
-                    </div>
-                    <div class="card">
-                        <div>
-                            <h3>
-                                Updated Privacy Policy
-                            </h3>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officiis assumenda magnam error porro nostrum numquam, qui in nobis ratione veniam reiciendis voluptatem voluptatibus dolore perferendis? Enim deserunt doloribus exercitationem.</p>
+                            </div>
+                            <div class="btns">
+                                <a><img src="images/star-plus-outline.svg" alt="star" height="20px" width="20px"></a>
+                                <a><img src="images/show.svg" alt="show" height="20px" width="20px"></a>
+                                <a><img src="images/share.svg" alt="share" height="20px" width="20px"></a>
+                            </div>
                         </div>
-                        <div>
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, recusandae. Facilis nulla animi cumque quaerat optio provident aperiam corrupti! Deleniti nihil asperiores, saepe aspernatur temporibus fuga ullam pariatur eius excepturi?
-                            </p>
+                        <div class="card">
+                           <div>
+                            <h3>Less cool project</h3>
+                           </div>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officiis assumenda magnam error porro nostrum numquam, qui in nobis ratione veniam reiciendis voluptatem voluptatibus dolore perferendis? Enim deserunt doloribus exercitationem.</p>
+                            </div>
+                            <div class="btns">
+                                <a><img src="images/star-plus-outline.svg" alt="star" height="20px" width="20px"></a>
+                                <a><img src="images/show.svg" alt="show" height="20px" width="20px"></a>
+                                <a><img src="images/share.svg" alt="share" height="20px" width="20px"></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div>
+                                <h3>Impossible App</h3>
+                            </div>
+                            <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officiis assumenda magnam error porro nostrum numquam, qui in nobis ratione veniam reiciendis voluptatem voluptatibus dolore perferendis? Enim deserunt doloribus exercitationem.</p></div>
+                            <div class="btns">
+                                <a><img src="images/star-plus-outline.svg" alt="star" height="20px" width="20px"></a>
+                                <a><img src="images/show.svg" alt="show" height="20px" width="20px"></a>
+                                <a><img src="images/share.svg" alt="share" height="20px" width="20px"></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div>
+                                <h3>Easy Peasy App</h3>
+                            </div>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officiis assumenda magnam error porro nostrum numquam, qui in nobis ratione veniam reiciendis voluptatem voluptatibus dolore perferendis? Enim deserunt doloribus exercitationem.</p>
+                            </div>
+                            <div class="btns">
+                                <a><img src="images/star-plus-outline.svg" alt="star" height="20px" width="20px"></a>
+                                <a><img src="images/show.svg" alt="show" height="20px" width="20px"></a>
+                                <a><img src="images/share.svg" alt="share" height="20px" width="20px"></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div>
+                                <h3>Ad Blocker</h3>
+                            </div>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officiis assumenda magnam error porro nostrum numquam, qui in nobis ratione veniam reiciendis voluptatem voluptatibus dolore perferendis? Enim deserunt doloribus exercitationem.</p>
+                            </div>
+                            <div class="btns">
+                                <a><img src="images/star-plus-outline.svg" alt="star" height="20px" width="20px"></a>
+                                <a><img src="images/show.svg" alt="show" height="20px" width="20px"></a>
+                                <a><img src="images/share.svg" alt="share" height="20px" width="20px"></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div>
+                                <h3>Money Maker</h3>
+                            </div>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe officiis assumenda magnam error porro nostrum numquam, qui in nobis ratione veniam reiciendis voluptatem voluptatibus dolore perferendis? Enim deserunt doloribus exercitationem.</p>
+                            </div>
+                            <div class="btns">
+                                <a><img src="images/star-plus-outline.svg" alt="star" height="20px" width="20px"></a>
+                                <a><img src="images/show.svg" alt="show" height="20px" width="20px"></a>
+                                <a><img src="images/share.svg" alt="share" height="20px" width="20px"></a>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="trending-section">
-                    <div>
-                        <img src="" alt="no image">
-                        <h4>@tegan</h4>
-                        <p> World Peace Builder</p>
+                <div class="trending-announcement-section">
+                    <h2>Announcements</h2>
+                    <div class="announcement-section">
+                        <div>
+                            <div class="card">
+                                <div>
+                                    <h3>Site Maintenance</h3>
+                                </div>
+                                <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut laboriosam deserunt ipsam .</div>
+                            </div>
+                            <div class="card">
+                                <div>
+                                    <h3>Community Share Day</h3>
+                                </div>
+                                    <div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quam fuga cum hic .</p>
+                                    </div>
+                            </div>
+                            <div class="card">
+                                <div>
+                                    <h3>
+                                        Updated Privacy Policy
+                                    </h3>
+                                </div>
+                                <div>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, recusandae. Facilis nulla animi cumque
+                                    </p>
+                                </div>
+                            </div> 
+                        </div>
+                        
                     </div>
-                    <div>
-                        <img src="" alt="no image">
-                        <h4>@morgan</h4>
-                        <p> Super cool project</p>
-                    </div>
-                    <div>
-                        <img src="" alt="no image">
-                        <h4>@kendall</h4>
-                        <p> Life changing app</p>
-                    </div>
-                    <div>
-                        <img src="" alt="no image">
-                        <h4>@alex</h4>
-                        <p> No Traffic maker</p>
+                    <h3>Trending</h3>
+                    <div class="trending-section">
+                        <div class="innercard">
+                            <div>
+                                <img src="images/purple-dog.svg" alt="purple-dog icon" height="50px" width="50px">
+                            </div>
+                            <div>
+                                <h4>@tegan</h4>
+                                <p> World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="innercard">
+                            <img src="images/icon.svg" alt="icon" height="50px" width="50px">
+                            <div>
+                                <h4>@morgan</h4>
+                                <p> Super cool project</p>
+                            </div>
+                        </div>
+                        <div class="innercard">
+                            <img src="images/icon.svg" alt="icon" height="50px" width="50px">
+                            <div>
+                                <h4>@kendall</h4>
+                                <p> Life changing app</p>
+                            </div>
+                        </div>
+                        <div class="innercard">
+                            <img src="images/icon.svg" alt="icon" height="50px" width="50px">
+                            <div>
+                                <h4>@alex</h4>
+                                <p> No Traffic maker</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Top Left Square -->
+  <rect x="0" y="0" width="60" height="80" fill="white"/>
+  
+  <!-- Top Right Square -->
+  <rect x="63" y="0" width="60" height="55" fill="white"/>
+  
+  <!-- Bottom Left Square -->
+  <rect x="0" y="85" width="60" height="55" fill="white"/>
+  
+  <!-- Bottom Right Square -->
+  <rect x="62" y="60" width="60" height="80" fill="white"/>
+</svg>
+
+
+
